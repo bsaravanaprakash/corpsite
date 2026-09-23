@@ -1,0 +1,16 @@
+.module-federation {
+  min-height: 48px;
+}
+
+.module-federation .module-federation-root {
+  min-height: 1px;
+}
+
+.module-federation .module-federation-status {
+  margin: 0;
+  border-left: 3px solid var(--colors-border-primary, #c3c1be);
+  padding: 0.75rem 1rem;
+  font-size: var(--body-font-size-s);
+  background-color: var(--colors-background-secondary, #f8f7f7);
+  color: var(--colors-content-secondary, #504e4b);
+}

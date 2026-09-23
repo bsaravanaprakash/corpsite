@@ -1,0 +1,41 @@
+{
+  "definitions": [
+    {
+      "title": "Module Federation",
+      "id": "module-federation",
+      "plugins": {
+        "xwalk": {
+          "page": {
+            "resourceType": "core/franklin/components/block/v1/block",
+            "template": {
+              "name": "Module Federation",
+              "model": "module-federation"
+            }
+          }
+        }
+      }
+    }
+  ],
+  "models": [
+    {
+      "id": "module-federation",
+      "fields": [
+        {
+          "component": "text",
+          "valueType": "string",
+          "name": "remote_app",
+          "label": "Remote App (scope or scope#module)",
+          "value": ""
+        },
+        {
+          "component": "text",
+          "valueType": "string",
+          "name": "remote_entry",
+          "label": "Remote Entry URL",
+          "value": ""
+        }
+      ]
+    }
+  ],
+  "filters": []
+}

@@ -1,0 +1,13 @@
+{
+  "SPLUNK_TOKEN": "828154c7-d904-429e-b561-9b508412a16b",
+  "SPLUNK_HEC_URL": "https://http-inputs-southernglazers.splunkcloud.com:443/services/collector/event",
+  "LOG_LEVEL": 3,
+  "APIGEE_APIKEY": "LF3JChfE86NAd9GAQVAeAmZStS16yfkP",
+  "SPLUNK_SOURCETYPE": "MFE",
+  "ENABLE_LOGGER": true,
+  "QM_URL": "https://cdn.quantummetric.com/qscripts/quantum-southernglazers.js",
+  "GET_FOOTER_NAVIGATION_AUTH_URL": "https://aem-qa.southernglazers.com/graphql/execute.json/sgws/footer-auth%3BsiteId={siteId}",
+  "GET_FOOTER_NAVIGATION_UNAUTH_URL": "https://aem-qa.southernglazers.com/graphql/execute.json/sgws/footer-unauth%3BsiteId={siteId}",
+  "DYNATRACE_URL": "/api/v1/logs/dynatrace",
+  "SPLIT_IO_CLIENT_APPLICATION_ENV_KEY": "p2gsvhjra3ccc8uum6m0i2abc90apur8j58d"
+}

@@ -214,5 +214,24 @@
         "valueType": "string"
       }
     ]
+  },
+  {
+    "id": "module-federation",
+    "fields": [
+      {
+        "component": "text",
+        "valueType": "string",
+        "name": "remote_app",
+        "label": "Remote App (scope or scope#module)",
+        "value": ""
+      },
+      {
+        "component": "text",
+        "valueType": "string",
+        "name": "remote_entry",
+        "label": "Remote Entry URL",
+        "value": ""
+      }
+    ]
   }
 ]

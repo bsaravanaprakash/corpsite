@@ -1,3 +1,14 @@
 {
-  "extends": ["stylelint-config-standard"]
+  "extends": ["stylelint-config-standard"],
+  "overrides": [
+    {
+      "files": [
+        "styles/Southern-Glazers-Light-and-Dark.css",
+        "styles/bundle.css"
+      ],
+      "rules": {
+        "custom-property-pattern": null
+      }
+    }
+  ]
 }
