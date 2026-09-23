@@ -17,7 +17,7 @@
   font-style: normal;
   font-weight: 400;
   font-display: swap;
-  src: url(https://db.onlinewebfonts.com/t/c1dadd1119436dde0f9ab3c947d1e62f.woff2)
+  src: url("https://db.onlinewebfonts.com/t/c1dadd1119436dde0f9ab3c947d1e62f.woff2")
     format("woff2");
 }
 
@@ -179,11 +179,11 @@
   --colors-background-interactive-negative-secondarySelected: #762824;
   --colors-background-interactive-neutral-disabled: #696969;
   --colors-background-interactive-neutral-primary: #dfdfdf;
-  --colors-background-interactive-neutral-primaryHover: #ffffff;
+  --colors-background-interactive-neutral-primaryHover: #fff;
   --colors-background-interactive-neutral-primarySelected: #c8c8ca;
   --colors-background-interactive-neutral-secondary: #4e4e4e;
   --colors-background-interactive-neutral-secondaryHover: #4e4e4e;
-  --colors-background-interactive-neutral-secondarySelected: #000000;
+  --colors-background-interactive-neutral-secondarySelected: #000;
   --colors-background-interactive-positive-disabled: #07411e;
   --colors-background-interactive-positive-primary: #bfddcb;
   --colors-background-interactive-positive-primaryHover: #a3cfb5;
@@ -210,12 +210,12 @@
   --colors-background-interactive-warning-secondarySelected: #2f2400;
   --colors-background-messageRecipient: #504e4b;
   --colors-background-messageSender: #765f26;
-  --colors-background-overlay-primary: #000000;
+  --colors-background-overlay-primary: #000;
   --colors-background-primary: #2a2a29;
   --colors-background-primaryDisabled: #928e8a;
   --colors-background-primaryInverted: #f8f7f7;
   --colors-background-primaryOnBold: #151515;
-  --colors-background-quanternary: #000000;
+  --colors-background-quanternary: #000;
   --colors-background-secondary: #1e1e1e;
   --colors-background-secondaryDisabled: #928e8a;
   --colors-background-successRemove: #095d2b;
@@ -240,7 +240,7 @@
   --colors-border-interactive-secondaryDisabled: #504e4b;
   --colors-border-interactive-secondaryHover: #aa8a3a;
   --colors-border-interactive-secondarySelected: #aa8a3a;
-  --colors-border-interactive-tertiary: #ffffff00;
+  --colors-border-interactive-tertiary: #fff0;
   --colors-border-interactive-tertiaryHover: #aa8a3a;
   --colors-border-interactive-warning: #ffe07a;
   --colors-border-onBold: #a9a5a1;
@@ -339,12 +339,12 @@
   --colors-sentiment-negative-secondarySelected: #762824;
   --colors-sentiment-neutral-primary: #dfdfdf;
   --colors-sentiment-neutral-primaryDisabled: #dfdfdf;
-  --colors-sentiment-neutral-primaryHover: #ffffff;
+  --colors-sentiment-neutral-primaryHover: #fff;
   --colors-sentiment-neutral-primarySelected: #c8c8ca;
   --colors-sentiment-neutral-secndaryHover: #4e4e4e;
   --colors-sentiment-neutral-secondary: #4e4e4e;
   --colors-sentiment-neutral-secondaryDisabled: #696969;
-  --colors-sentiment-neutral-secondarySelected: #000000;
+  --colors-sentiment-neutral-secondarySelected: #000;
   --colors-sentiment-positive-primary: #bfddcb;
   --colors-sentiment-positive-primaryDisabled: #07411e;
   --colors-sentiment-positive-primaryHover: #a3cfb5;
@@ -361,12 +361,12 @@
   --colors-sentiment-warning-secondary: #846a00;
   --colors-sentiment-warning-secondaryDisabled: #1e1700;
   --colors-sentiment-warning-secondarySelected: #2f2400;
-  --dropShadow-large: 0px 2px 4px #000000;
-  --dropShadow-medium: 0px 2px 4px #000000;
-  --dropShadow-small: 0px 2px 4px #000000;
-  --dropShadow-xlarge: 0px 2px 4px #000000;
-  --font-fontFamily-ffPrimary: Scto Grotesk A;
-  --font-fontFamily-ffSecondary: Scto Grotesk A;
+  --dropShadow-large: 0px 2px 4px #000;
+  --dropShadow-medium: 0px 2px 4px #000;
+  --dropShadow-small: 0px 2px 4px #000;
+  --dropShadow-xlarge: 0px 2px 4px #000;
+  --font-fontFamily-ffPrimary: scto grotesk a;
+  --font-fontFamily-ffSecondary: scto grotesk a;
   --font-fontSize-2xl: 1.375rem;
   --font-fontSize-2xs: 0.6875rem;
   --font-fontSize-3xl: 1.625rem;
@@ -386,11 +386,11 @@
   --font-fontWeight-medium: 500;
   --font-fontWeight-regular: 400;
   --font-fontWeight-semibold: 600;
-  --font-letterSpacing-2xs: -0.046875rem;
-  --font-letterSpacing-lg: 0.015625rem;
+  --font-letterSpacing-2xs: -0.0469rem;
+  --font-letterSpacing-lg: 0.0156rem;
   --font-letterSpacing-none: 0rem;
-  --font-letterSpacing-sm: -0.015625rem;
-  --font-letterSpacing-xs: -0.03125rem;
+  --font-letterSpacing-sm: -0.0156rem;
+  --font-letterSpacing-xs: -0.0313rem;
   --font-lineHeight-1000: 2.5rem;
   --font-lineHeight-1050: 2.625rem;
   --font-lineHeight-1100: 2.75rem;
@@ -454,12 +454,12 @@
   --sentiment-negative-secondarySelected: #762824;
   --sentiment-neutral-primary: #dfdfdf;
   --sentiment-neutral-primaryDisabled: #ebeae9;
-  --sentiment-neutral-primaryHover: #ffffff;
+  --sentiment-neutral-primaryHover: #fff;
   --sentiment-neutral-primarySelected: #c0c0c0;
   --sentiment-neutral-secondary: #323231;
   --sentiment-neutral-secondaryDisabled: #696969;
   --sentiment-neutral-secondaryHover: #504e4b;
-  --sentiment-neutral-secondarySelected: #000000;
+  --sentiment-neutral-secondarySelected: #000;
   --sentiment-positive-primary: #bfddcb;
   --sentiment-positive-primaryDisabled: #07411e;
   --sentiment-positive-primaryHover: #a3cfb5;
@@ -664,9 +664,9 @@
   --colors-background-interactive-neutral-disabled: #dfdfdf;
   --colors-background-interactive-neutral-primary: #1e1e1e;
   --colors-background-interactive-neutral-primaryHover: #353535;
-  --colors-background-interactive-neutral-primarySelected: #000000;
+  --colors-background-interactive-neutral-primarySelected: #000;
   --colors-background-interactive-neutral-secondary: #dfdfdf;
-  --colors-background-interactive-neutral-secondaryHover: #ffffff;
+  --colors-background-interactive-neutral-secondaryHover: #fff;
   --colors-background-interactive-neutral-secondarySelected: #c8c8ca;
   --colors-background-interactive-positive-disabled: #f3f9f5;
   --colors-background-interactive-positive-primary: #0b7737;
@@ -678,12 +678,12 @@
   --colors-background-interactive-primary: #323231;
   --colors-background-interactive-primaryDisabled: #c3c1be;
   --colors-background-interactive-primaryHover: #1e1e1e;
-  --colors-background-interactive-primaryHoverOnBold: #000000;
+  --colors-background-interactive-primaryHoverOnBold: #000;
   --colors-background-interactive-primaryInverted: #f8f7f7;
   --colors-background-interactive-primaryInvertedDisabled: #6d6965;
   --colors-background-interactive-primaryOnBold: #1e1e1e;
-  --colors-background-interactive-primarySelected: #000000;
-  --colors-background-interactive-primarySelectedOnBold: #000000;
+  --colors-background-interactive-primarySelected: #000;
+  --colors-background-interactive-primarySelectedOnBold: #000;
   --colors-background-interactive-tertiary: #f8f7f7;
   --colors-background-interactive-warning-disabled: #fefcf2;
   --colors-background-interactive-warning-primary: #f4bd00;
@@ -695,10 +695,10 @@
   --colors-background-interactive-warning-secondarySelected: #f4bd00;
   --colors-background-messageRecipient: #ebeae9;
   --colors-background-messageSender: #7e0005;
-  --colors-background-overlay-primary: #000000;
-  --colors-background-primary: #ffffff;
+  --colors-background-overlay-primary: #000;
+  --colors-background-primary: #fff;
   --colors-background-primaryDisabled: #696969;
-  --colors-background-primaryInverted: #000000;
+  --colors-background-primaryInverted: #000;
   --colors-background-primaryOnBold: #1e1e1e;
   --colors-background-quanternary: #c8c8ca;
   --colors-background-secondary: #f8f7f7;
@@ -715,7 +715,7 @@
   --colors-border-input-positive: #0b7737;
   --colors-border-input-primary: #ebeae9;
   --colors-border-interactive-accent: #0d6d87;
-  --colors-border-interactive-fab: #000000;
+  --colors-border-interactive-fab: #000;
   --colors-border-interactive-fabOnBold: #1e1e1e;
   --colors-border-interactive-negative: #9d3a37;
   --colors-border-interactive-netural: #1e1e1e;
@@ -824,8 +824,8 @@
   --colors-sentiment-neutral-primary: #1e1e1e;
   --colors-sentiment-neutral-primaryDisabled: #696969;
   --colors-sentiment-neutral-primaryHover: #353535;
-  --colors-sentiment-neutral-primarySelected: #000000;
-  --colors-sentiment-neutral-secndaryHover: #ffffff;
+  --colors-sentiment-neutral-primarySelected: #000;
+  --colors-sentiment-neutral-secndaryHover: #fff;
   --colors-sentiment-neutral-secondary: #dfdfdf;
   --colors-sentiment-neutral-secondaryDisabled: #dfdfdf;
   --colors-sentiment-neutral-secondarySelected: #c8c8ca;
@@ -845,12 +845,12 @@
   --colors-sentiment-warning-secondary: #ffe07a;
   --colors-sentiment-warning-secondaryDisabled: #fefcf2;
   --colors-sentiment-warning-secondarySelected: #f4bd00;
-  --dropShadow-large: 0px 2px 4px #000000;
-  --dropShadow-medium: 0px 2px 4px #000000;
-  --dropShadow-small: 0px 2px 4px #000000;
-  --dropShadow-xlarge: 0px 2px 4px #000000;
-  --font-fontFamily-ffPrimary: Scto Grotesk A;
-  --font-fontFamily-ffSecondary: Scto Grotesk A;
+  --dropShadow-large: 0px 2px 4px #000;
+  --dropShadow-medium: 0px 2px 4px #000;
+  --dropShadow-small: 0px 2px 4px #000;
+  --dropShadow-xlarge: 0px 2px 4px #000;
+  --font-fontFamily-ffPrimary: scto grotesk a;
+  --font-fontFamily-ffSecondary: scto grotesk a;
   --font-fontSize-2xl: 1.375rem;
   --font-fontSize-2xs: 0.6875rem;
   --font-fontSize-3xl: 1.625rem;
@@ -870,11 +870,11 @@
   --font-fontWeight-medium: 500;
   --font-fontWeight-regular: 400;
   --font-fontWeight-semibold: 600;
-  --font-letterSpacing-2xs: -0.046875rem;
-  --font-letterSpacing-lg: 0.015625rem;
+  --font-letterSpacing-2xs: -0.0469rem;
+  --font-letterSpacing-lg: 0.0156rem;
   --font-letterSpacing-none: 0rem;
-  --font-letterSpacing-sm: -0.015625rem;
-  --font-letterSpacing-xs: -0.03125rem;
+  --font-letterSpacing-sm: -0.0156rem;
+  --font-letterSpacing-xs: -0.0313rem;
   --font-lineHeight-1000: 2.5rem;
   --font-lineHeight-1050: 2.625rem;
   --font-lineHeight-1100: 2.75rem;
@@ -942,7 +942,7 @@
   --sentiment-neutral-primarySelected: #151515;
   --sentiment-neutral-secondary: #dfdfdf;
   --sentiment-neutral-secondaryDisabled: #dfdfdf;
-  --sentiment-neutral-secondaryHover: #ffffff;
+  --sentiment-neutral-secondaryHover: #fff;
   --sentiment-neutral-secondarySelected: #c0c0c0;
   --sentiment-positive-primary: #0b7737;
   --sentiment-positive-primaryDisabled: #87c09e;
@@ -1096,12 +1096,12 @@
 @layer utilities {
   .no-spin::-webkit-inner-spin-button,
   .no-spin::-webkit-outer-spin-button {
-    -webkit-appearance: none;
+    appearance: none;
     margin: 0;
   }
 
   .no-spin {
-    -moz-appearance: textfield;
+    appearance: textfield;
   }
 }
 
@@ -1280,7 +1280,7 @@ button {
   text-align: center;
   text-decoration: none;
   background-color: var(--colors-background-interactive-accent-primary);
-  color: var(--colors-content-primaryOnBold);
+  color: var(--colors-content-primaryOnBold); /* stylelint-disable-line custom-property-pattern */
   cursor: pointer;
   overflow: hidden;
   text-overflow: ellipsis;

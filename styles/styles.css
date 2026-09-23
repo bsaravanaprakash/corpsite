@@ -11,7 +11,8 @@
  */
 
 /* @import '@sgwshub/neat-theme/Natty.css'; */
-@import 'Southern-Glazers-Light-and-Dark.css';
+@import url('Southern-Glazers-Light-and-Dark.css');
+
 /* @import '@sgwshub/neat-theme/Proof-Retro.css'; */
 
 :root {
@@ -180,7 +181,7 @@ button {
   text-align: center;
   text-decoration: none;
   background-color: var(--colors-background-interactive-accent-primary);
-  color: var(--colors-content-primaryOnBold);
+  color: var(--colors-content-primaryOnBold); /* stylelint-disable-line custom-property-pattern */
   cursor: pointer;
   overflow: hidden;
   text-overflow: ellipsis;
