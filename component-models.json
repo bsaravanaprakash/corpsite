@@ -221,8 +221,15 @@
       {
         "component": "text",
         "valueType": "string",
-        "name": "remote_app",
-        "label": "Remote App (scope or scope#module)",
+        "name": "scope",
+        "label": "Scope",
+        "value": ""
+      },
+      {
+        "component": "text",
+        "valueType": "string",
+        "name": "module_path",
+        "label": "Module Path",
         "value": ""
       },
       {
