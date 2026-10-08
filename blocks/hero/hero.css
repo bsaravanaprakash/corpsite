@@ -13,3 +13,68 @@
   margin-right: auto;
   color: var(--background-color);
 }
+
+/* Video background variant */
+.hero.video {
+  display: grid;
+  min-height: 60vh;
+  overflow: hidden;
+}
+
+/* Stack the media layer and the text layer in the same grid cell */
+.hero.video .hero-video-media,
+.hero.video .hero-video-content {
+  grid-area: 1 / 1;
+}
+
+.hero.video .hero-video-media {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+.hero.video .hero-video-bg,
+.hero.video .hero-video-media picture,
+.hero.video .hero-video-media img {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* Video sits above the poster image once it can play */
+.hero.video .hero-video-bg {
+  z-index: 1;
+}
+
+/* Darken the media so overlaid text stays legible */
+.hero.video .hero-video-media::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  z-index: 2;
+  background: rgb(0 0 0 / 35%);
+}
+
+/* Text layer on top of the media */
+.hero.video .hero-video-content {
+  position: relative;
+  z-index: 3;
+  align-self: center;
+  max-width: 1200px;
+  width: 100%;
+  margin-inline: auto;
+  padding: 2rem 1rem;
+  color: var(--background-color);
+}
+
+.hero.video .hero-video-content a {
+  color: var(--background-color);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .hero.video .hero-video-bg {
+    display: none;
+  }
+}
